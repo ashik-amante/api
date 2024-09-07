@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch </title>
+    <style>
+        .content{
+            display: flex;
+            background-color: steelblue;
+        }
+    </style>
 </head>
 <body>
     <button onclick="loadData()">Load data</button>
+    <button onclick="loadUser()">Load Users</button>
+    
+    <div class="content">
+        <div>
+            <h1>User </h1>
+            <ul id="user">
+    
+            </ul>
+        </div>
+        <div>
+            <h1>address</h1>
+            <ul id="address">
+
+            </ul>
+        </div>
+    </div>
 
     <script src="js/fetch.js"></script>
 </body>
